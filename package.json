@@ -11,6 +11,11 @@
     "react-dom": "16.8.6",
     "react-scripts": "^4.0.1"
     "homepage": "https://arashkyoosha.github.io/Keeper-App",
+    "scripts": {
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
   },
   "devDependencies": {
     "typescript": "3.3.3"
